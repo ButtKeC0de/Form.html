@@ -1,0 +1,28 @@
+    .conteiner{
+
+        padding: 20px;
+        background-color: rgba(0,0,0,0.6);
+        width: 250px;
+        color: white;
+        position: absolute;
+    }
+    label {
+      color: rgb(255, 255, 255);
+        
+    }
+
+    .erro{
+
+        color: red;
+    }
+    body {
+        margin-top: auto;
+        align-items: center;
+        text-align: center;
+        background-image: url(assets/Design\ sem\ nome\ \(1\).png);
+        justify-content: center;
+        margin: 0;
+        place-items: center;
+        display: flex;
+    }
+
