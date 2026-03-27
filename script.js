@@ -8,7 +8,7 @@ form.addEventListener('submit',function(e){
 
     let nome  = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
-    let senha = document.getElementById('senha').value;
+    let telefone = document.getElementById('telefone').value;
 
         document.getElementById('erroNome').textContent = '';
         document.getElementById('erroEmail').textContent = '';
@@ -25,7 +25,7 @@ form.addEventListener('submit',function(e){
         valido = false;
     }
 
-    if (telefone.length === 9 ){
+    if (telefone.length !== 9 ){
         document.getElementById('erroTelefone').textContent = 'O seu telefone deve conter 9 digitos.';
         valido = false
     }
