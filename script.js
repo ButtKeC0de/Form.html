@@ -25,8 +25,8 @@ form.addEventListener('submit',function(e){
         valido = false;
     }
 
-    if (senha.length < 6 ){
-        document.getElementById('erroSenha').textContent = 'Senha invalida, deve conter ao menos 6 caracteres.';
+    if (telefone.length === 9 ){
+        document.getElementById('erroTelefone').textContent = 'O seu telefone deve conter 9 digitos.';
         valido = false
     }
 
